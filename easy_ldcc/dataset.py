@@ -25,7 +25,7 @@ class TrainingDataSet(object):
                     text=" ".join(sentences),
                     category=category,
                     word_ids=word_ids,
-                    category_id=category_id,
+                    cat_id=category_id,
                 )
             )
 
