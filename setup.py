@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='easy_ldcc',
-    version='0.0.1',
+    version='0.0.2',
     packages=['easy_ldcc'],
     url='https://github.com/jnory/easy_lddc',
     license='MIT',
