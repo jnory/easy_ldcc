@@ -4,8 +4,8 @@ from easy_ldcc.parser import Parser
 from easy_ldcc.splitter import Splitter
 
 
-def download():
-    downloader = Downloader()
+def download(use_mirror=True):
+    downloader = Downloader(use_mirror)
     tokenizer = Parser()
     data = []
     for category, text in zip(downloader.categories, downloader.texts):
